@@ -1,0 +1,489 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 12, 2016, 4:12:27 PM
+    Author     : S M SHAKHAWAT HOSSAIN
+*/
+@font-face{
+    font-family: mnormal;
+    src:url(../fonts/mnormal.eot);
+}
+@font-face{
+    font-family: mnormal;
+    src:url(../fonts/mnormal.ttf);
+}
+@font-face{
+    font-family: m300;
+    src:url(../fonts/m300.eot);
+}
+@font-face{
+    font-family: m300;
+    src:url(../fonts/m300.ttf);
+}
+@font-face{
+    font-family: m500;
+    src:url(../fonts/m500.eot);
+}
+@font-face{
+    font-family: m500;
+    src:url(../fonts/m500.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    color: #47403B;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1179px;
+    height: auto;
+    margin: 0 auto;
+}
+.fix{
+    overflow: hidden;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.topbar {
+    padding-bottom: 8px;
+}
+
+.topbar_left {
+    font-family: m300;
+}
+.topbar_left ul{
+    list-style: none;
+    padding-top: 8px;
+}
+.topbar_left ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.topbar_left ul li img{
+    padding-right: 10px;
+}
+
+.topbar_right {
+    font-family: m300;
+    padding-right: 10px;
+    float: right;
+}
+.topbar_right  ul{
+    list-style: none;
+    margin-top: -21px;
+}
+.topbar_right ul li{
+    display: inline-block;
+    padding-left: 28px;
+}
+.topbar_right ul li a{
+    text-decoration: none;
+    color: #47403B;
+    font-size: 15px;
+}
+/* -- Header Start -- */
+
+.header {
+    padding: 55px 0;
+    background-color: #F5F6F1;
+}
+.header_wrapper{
+    background-color: #F5F6F1;
+}
+.header_logo {
+    margin-top: -9px;
+}
+.header_logo h1{
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+.header_logo p{
+    font-size: 10px;
+}
+.header_boot {
+    
+}
+.header_boot img{
+    
+}
+.main_menu {
+    padding-left: 190px;
+    padding-top: 14px;
+}
+.main_menu ul{
+    list-style: none;
+}
+.main_menu ul li{
+    display: inline-block;
+    padding-left: 22px;
+}
+.main_menu ul li a{
+    text-decoration: none;
+    color: #47403B;
+    font-size: 17px;
+    font-family: m500;
+}
+.red{
+    color: #F58F8C;
+}
+.header_item {
+    
+}
+.item_right{
+    padding-right: 8px;
+}
+.item_right p{
+    
+}
+.item_right h5{
+    letter-spacing: 1px;
+}
+.header_box {
+    
+}
+.header_box img{
+    
+}
+
+/*  -- Slider Start --  */
+
+.slider {
+    background-image: url(../images/slider.png);
+    height: 520px;
+    margin-top: 40px;
+    position: relative;
+}
+.slider ul{
+    list-style: none;
+    position: absolute;
+    padding-top: 95px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 90px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.slider ul li{
+    color: white;
+}
+.slider img{
+    position: absolute;
+    margin: 180px 0 0 680px;
+}
+
+/*  -- Shipping Start --  */
+
+.shipping {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.shipping_one {
+    background-color: #F5F6F1;
+    margin-right: 40px;
+    width: 366px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.shipping_one:last-child{
+    margin-right: 0px;
+}
+.shipping_one h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0px;
+}
+.shipping_one p{
+    font-family: m300;
+}
+.shipping_one p span{
+    font-family: m700;
+    font-weight: 700;
+    color: #F55856;
+}
+
+/*  -- Categories Start --  */
+
+.categories_wrapper {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #f8f8f8;
+}
+.categories{
+    
+}
+.same_header {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+.same_one h1{
+    margin: 0;
+}
+.aa{
+    height: 2px;
+    margin-top: 14px;
+    width: 97%;
+}
+.bb{
+    height: 1px;
+    margin-top: -20px;
+    width: 97%;
+}
+.cc{
+    height: 2px;
+    margin-top: -26px;
+    width: 97%;
+    float: right;
+}
+.dd{
+    height: 1px;
+    margin-top: -42px;
+    width: 97%;
+    float: right;
+}
+.categories_one {
+    width: 380px;
+    margin-right: 19px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+}
+.categories_one:last-child{
+    margin-right: 0;
+}
+.categories_one img{
+    width: 380px;
+    height: 350px;
+}
+.categories_one h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 18px 18px;
+}
+.categories_one p{
+    padding-left: 18px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.categories_one a{
+    color: #F67372;
+    text-decoration: none;
+     padding-left: 18px
+}
+
+/*  -- Arrivals Start --  */
+
+.arrivals {
+    background-color: #FFF;
+}
+.arrivals_one {
+    width: 280px;
+    padding-bottom: 40px;
+    margin-right: 19px;
+}
+.arrivals_one:last-child{
+    margin-right: 0;
+}
+.arrivals_one p{
+    padding: 16px 0;
+}
+.arrivals_one img{
+    width: 280px;
+    height: 200px;
+}
+.arrivals_one h5{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.arrivals_one a{
+    text-decoration: none;
+    background-color: #463F3A;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 12px;
+    display: block;
+    text-align: center;
+}
+.extra{
+    width: 39%;
+}
+.ff{
+    width: 40%;
+}
+/*  -- featured Start --  */
+
+.featured_wrapper {
+    background-color: #F8F8F8;
+}
+
+
+/*  -- Blog Start --  */
+
+.blog {
+    
+}
+
+.blog_one {
+        width: 31%;
+    margin-right: 38px;
+    margin-bottom: 80px;
+}
+.blog_one:last-child{
+    margin-right: 0px;
+}
+.blog_one img{
+    width: 373px;
+    height: 180px;
+}
+.blog_one h5{
+    font-weight: 700;
+    margin: 18px 0;
+    font-size: 15px;
+}
+.blog_one p{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.blog_one a{
+    text-decoration: none;
+    color: #F55A58;
+}
+
+/*  -- Footer Top Start --  */
+
+.footer_top_wrapper {
+    background-color: #f2f2f0;
+    text-align: center;
+}
+.footer_top{
+    padding: 45px 0;
+}
+.footer_top h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+.footer_top p{
+    font-weight: 300;
+    font-size: 15px;
+}
+.footer_top p a{
+    text-decoration: none;
+    color: #F67372;
+}
+
+/*  -- Footer Middle Start --  */
+
+.footer_middle_wrapper{
+    background-color: #463f3a;
+}
+.footer_middle {
+    padding: 85px 0 75px 0;
+    color: #FFF;
+}
+.footer_middle_logo {
+    
+}
+.footer_middle_logo h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.footer_middle_logo p{
+    font-size: 10px;
+}
+.footer_middle_boot {
+    margin-top: 8px;
+}
+.footer_middle_boot img{
+    
+}
+.footer_main_menu {
+    padding-left: 190px;
+    padding-top: 8px;
+}
+.footer_main_menu ul{
+    list-style: none;
+    padding-left: 45px;
+    margin: 0 0 10px 0;
+}
+.footer_main_menu ul li{
+    display: inline-block;
+    padding-left: 22px;
+}
+.footer_main_menu ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 17px;
+    font-family: m500;
+}
+.footer_main_menu p{
+    font-family: m300;
+    text-align: center;
+    padding-left: 60px;
+    font-size: 14px;
+}
+.footer_middle_right {
+    
+}
+.footer_middle_right a img{
+    background-color: #3c3631;
+    padding: 12px;
+    margin-top: 12px;
+}
+/*  -- Footer Bottom Start --  */
+.footer_bottom_wrapper{
+    background-color: #eeeeee;
+}
+.footer_bottom {
+    padding: 12px 0;
+    
+}
+.footer_bottom ul{
+    list-style: none;
+}
+.footer_bottom ul li{
+    display: inline-block;
+    padding-right: 15px;
+}
+.footer_bottom ul li i{
+    
+}
+.footer_bottom p{
+    
+}
+.footer_bottom p span{
+    color: #F67372;
+}
+
+/*  -- Social Media Icons --*/
+.fa.fa-rss {
+}
+
+.fa.fa-pinterest {
+}
+
+.fa.fa-facebook {
+}
+
+.fa.fa-twitter {
+}
+
+.fa.fa-dribbble {
+}
